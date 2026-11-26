@@ -1,0 +1,17 @@
+# Shared conda env (also used by denpasar-air-quality-forecasting). Same pins as that project;
+# scikit-learn 1.6.1 also matches this project's saved pipeline. Update only after approval:
+# conda env update -n lab_venv -f environment.yml  (never --prune)
+name: lab_venv
+channels:
+  - conda-forge
+  - nodefaults
+dependencies:
+  - python=3.13
+  - pandas=2.3.3
+  - scikit-learn=1.6.1
+  - numpy=2.5.4
+  - pyarrow
+  - streamlit>=1.36
+  - pytest
+  - ruff
+  - pip

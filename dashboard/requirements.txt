@@ -1,0 +1,12 @@
+# App runtime, pinned. Single source of the runtime pins; Streamlit Community Cloud reads this
+# file because a dependency file next to the entry point (dashboard/app.py)
+# takes precedence over the root environment.yml. Keep it pure pins: no `-e .`, no local paths.
+# scikit-learn must stay at 1.6.1: the saved pipeline was trained with it (model_metadata.json).
+# For pip-based environments only; lab_venv is managed with environment.yml.
+streamlit==1.66.1
+altair==6.3.0         # charts; imported directly (also a streamlit dependency)
+pandas==2.3.3
+numpy==2.5.4
+scipy==1.18.1         # required by scikit-learn
+scikit-learn==1.6.1   # loads gradient_boosting_pipeline.joblib
+joblib==1.6.0

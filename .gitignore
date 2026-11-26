@@ -1,0 +1,57 @@
+# Python bytecode and build output
+__pycache__/
+*.py[cod]
+*.egg-info/
+*.egg
+build/
+dist/
+
+# Tool caches and coverage
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.hypothesis/
+.tox/
+.nox/
+.coverage
+.coverage.*
+coverage.xml
+htmlcov/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Stale pre-run notebook copy (the source of truth is employee_attrition_prediction.ipynb)
+notebooks/employee-attrition-prediction.ipynb
+
+# Local environments and secrets
+.venv/
+venv/
+.env
+.env.*
+.streamlit/secrets.toml
+.streamlit/credentials.toml
+
+# Working notes, prompts and superseded notebooks (not part of the app)
+prompts/
+docs/
+archive/
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*~
+
+# OS files
+.DS_Store
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+desktop.ini

@@ -1,0 +1,413 @@
+EmployeeId,risk_rank,attrition_probability,attrition_flag,Department,JobRole,JobLevel,OverTime,MonthlyIncome
+698,1,0.8949149426030034,1,Sales,Sales Representative,1,Yes,1569
+1215,2,0.8905329846302786,1,Research & Development,Research Scientist,1,Yes,2439
+949,3,0.8645632447213547,1,Research & Development,Laboratory Technician,1,Yes,3172
+900,4,0.7986413331370426,1,Human Resources,Human Resources,1,Yes,2335
+660,5,0.7826941452411643,1,Research & Development,Laboratory Technician,1,Yes,2074
+1104,6,0.7748255833717728,1,Research & Development,Laboratory Technician,1,Yes,2398
+792,7,0.7641739121852149,1,Sales,Sales Representative,1,Yes,2380
+714,8,0.7620637585328991,1,Human Resources,Human Resources,1,No,2863
+1152,9,0.7543947260035061,1,Research & Development,Research Scientist,1,Yes,2432
+1061,10,0.7411815726789964,1,Research & Development,Research Scientist,1,Yes,2472
+94,11,0.7316221635372445,1,Research & Development,Research Scientist,1,Yes,2814
+1097,12,0.7197943419679899,1,Sales,Sales Representative,1,No,1091
+1139,13,0.7169253712060526,1,Research & Development,Laboratory Technician,1,Yes,2166
+124,14,0.7147480789282085,1,Research & Development,Laboratory Technician,1,Yes,2408
+1343,15,0.7118121901131131,1,Sales,Sales Executive,3,Yes,8564
+98,16,0.703694304212106,1,Sales,Sales Executive,3,Yes,10448
+1250,17,0.6894652463090609,1,Research & Development,Research Scientist,1,Yes,2437
+1214,18,0.6741562096794798,1,Research & Development,Laboratory Technician,1,Yes,1129
+1050,19,0.6123973979849592,1,Sales,Sales Executive,2,Yes,5440
+1364,20,0.5846527328201603,1,Sales,Sales Executive,2,Yes,9907
+873,21,0.5365214165801008,1,Research & Development,Research Scientist,1,Yes,2307
+159,22,0.5303810393363099,1,Human Resources,Human Resources,1,Yes,2148
+202,23,0.5285372582923469,1,Research & Development,Research Scientist,1,Yes,2436
+853,24,0.5125754773069024,1,Sales,Sales Representative,1,No,1790
+616,25,0.4976531857866364,1,Research & Development,Laboratory Technician,1,No,2561
+1247,26,0.49580831444287893,1,Sales,Sales Representative,1,No,2760
+1229,27,0.4957177635617878,1,Research & Development,Laboratory Technician,1,Yes,2379
+1444,28,0.49133057849848427,1,Research & Development,Research Scientist,1,Yes,3760
+911,29,0.4878860887234989,1,Sales,Sales Representative,1,No,2858
+612,30,0.4829841983750246,1,Research & Development,Research Scientist,1,No,2972
+759,31,0.47974007919940603,1,Research & Development,Research Scientist,1,No,1514
+252,32,0.47543318683891406,1,Sales,Sales Executive,2,Yes,9854
+765,33,0.4686738156719537,1,Research & Development,Research Scientist,1,Yes,4930
+1274,34,0.46853737322733374,1,Research & Development,Research Director,4,Yes,14411
+641,35,0.4594403556076581,1,Human Resources,Human Resources,1,No,1555
+1295,36,0.4573513468806604,1,Research & Development,Research Scientist,1,Yes,2933
+731,37,0.45492142892454346,1,Sales,Sales Executive,2,Yes,4599
+541,38,0.4388895795734287,1,Sales,Sales Executive,2,No,6735
+974,39,0.4379888975276602,1,Sales,Sales Representative,1,Yes,2644
+1312,40,0.4335740324523202,1,Sales,Sales Representative,1,No,1081
+902,41,0.4289666864950374,1,Research & Development,Manufacturing Director,2,Yes,4788
+921,42,0.40959962509555287,1,Research & Development,Research Scientist,1,No,2362
+341,43,0.4077568276249228,1,Research & Development,Manufacturing Director,3,Yes,10209
+930,44,0.404107579695434,1,Sales,Sales Representative,1,No,2679
+1173,45,0.39636238130886353,1,Sales,Sales Executive,2,Yes,5617
+908,46,0.39292055604819015,1,Sales,Sales Executive,2,Yes,5813
+643,47,0.3842951651917498,1,Research & Development,Laboratory Technician,1,Yes,2660
+462,48,0.38378662645775885,1,Research & Development,Laboratory Technician,1,Yes,2587
+1032,49,0.3826356745734795,1,Research & Development,Research Scientist,1,No,2061
+504,50,0.3823132566200954,1,Research & Development,Research Scientist,1,No,1563
+502,51,0.3811792088180919,1,Research & Development,Laboratory Technician,1,Yes,3989
+650,52,0.3779990319031854,1,Research & Development,Laboratory Technician,1,Yes,4723
+861,53,0.37099791531566584,1,Research & Development,Laboratory Technician,2,Yes,5769
+530,54,0.35250634327015884,1,Research & Development,Laboratory Technician,1,No,1393
+838,55,0.34467892220017676,1,Research & Development,Research Director,4,Yes,15787
+523,56,0.3302088875633378,1,Research & Development,Manufacturing Director,2,Yes,4440
+1318,57,0.3280508817195096,1,Research & Development,Research Scientist,1,Yes,2342
+1252,58,0.3277551325946161,1,Research & Development,Healthcare Representative,2,Yes,6294
+624,59,0.32570937119554794,1,Research & Development,Research Scientist,1,No,2438
+455,60,0.32364538335926574,1,Sales,Sales Representative,1,Yes,2655
+744,61,0.318855080459739,1,Research & Development,Research Scientist,1,Yes,4787
+273,62,0.3187491767399758,1,Research & Development,Laboratory Technician,2,No,2272
+829,63,0.3162301628754679,1,Research & Development,Manufacturing Director,3,Yes,7945
+6,64,0.3139167059529141,1,Human Resources,Human Resources,1,No,2804
+1009,65,0.30354416981281357,1,Sales,Sales Representative,1,No,2728
+648,66,0.30207904939055935,1,Research & Development,Laboratory Technician,1,No,3838
+289,67,0.2989705764894391,1,Human Resources,Human Resources,1,No,2956
+76,68,0.29363451857930134,1,Research & Development,Laboratory Technician,1,No,3978
+479,69,0.29338862422375067,1,Research & Development,Research Scientist,1,No,3785
+1358,70,0.2914382171998106,1,Research & Development,Healthcare Representative,2,Yes,5811
+445,71,0.2897069284880141,1,Sales,Sales Executive,2,No,6029
+562,72,0.2876375258840388,1,Research & Development,Laboratory Technician,1,Yes,3977
+1103,73,0.28495972936706815,1,Sales,Sales Executive,2,No,7991
+1412,74,0.2844482573458574,1,Sales,Sales Representative,1,Yes,2308
+1463,75,0.2837906368254671,1,Sales,Sales Executive,3,Yes,7082
+742,76,0.28174854925227066,1,Sales,Sales Executive,4,No,12936
+1360,77,0.27633502832337586,1,Research & Development,Laboratory Technician,1,No,2440
+600,78,0.26644659626690487,1,Research & Development,Healthcare Representative,2,Yes,6142
+865,79,0.26319897652994434,1,Sales,Sales Representative,1,Yes,2275
+719,80,0.2624453701882808,1,Sales,Sales Executive,3,Yes,7083
+772,81,0.2609926615852638,1,Research & Development,Laboratory Technician,1,No,2013
+27,82,0.2548821855899064,1,Research & Development,Laboratory Technician,1,No,2296
+1276,83,0.2526433733066311,1,Research & Development,Laboratory Technician,1,No,2837
+520,84,0.2483004464222746,0,Sales,Sales Executive,2,Yes,4581
+717,85,0.24816888620112829,0,Sales,Sales Executive,2,No,5736
+817,86,0.24780036341957135,0,Sales,Sales Representative,1,No,2033
+524,87,0.23846629162854435,0,Research & Development,Laboratory Technician,1,No,2018
+242,88,0.23779036860787078,0,Research & Development,Research Scientist,2,Yes,5747
+201,89,0.23231518700501855,0,Sales,Sales Executive,2,No,5473
+1,90,0.2280954715806744,0,Human Resources,Human Resources,1,Yes,2991
+897,91,0.22406013901247493,0,Research & Development,Laboratory Technician,1,No,3295
+775,92,0.22088848314963866,0,Research & Development,Manufacturing Director,2,No,4877
+1100,93,0.21938503947191063,0,Research & Development,Laboratory Technician,1,No,2406
+1161,94,0.21525704305623253,0,Research & Development,Laboratory Technician,1,No,2450
+596,95,0.21474729953067992,0,Research & Development,Laboratory Technician,1,No,2008
+1077,96,0.21078178946679818,0,Human Resources,Human Resources,3,Yes,8837
+794,97,0.21027078652874032,0,Human Resources,Human Resources,2,Yes,5743
+1054,98,0.2101537569017037,0,Research & Development,Laboratory Technician,2,Yes,5562
+1080,99,0.20851111327408023,0,Sales,Sales Executive,2,Yes,6134
+882,100,0.20650842911703476,0,Sales,Sales Executive,3,No,9610
+62,101,0.20629355552332546,0,Sales,Sales Representative,1,No,2404
+1064,102,0.20500696027494086,0,Sales,Sales Executive,2,No,4385
+103,103,0.20171745784712147,0,Research & Development,Research Scientist,1,No,3537
+548,104,0.20050241582288458,0,Sales,Sales Executive,3,Yes,10854
+920,105,0.20000136820657347,0,Sales,Sales Executive,2,No,4898
+545,106,0.19966244424880314,0,Research & Development,Healthcare Representative,2,Yes,6388
+898,107,0.19754334052237582,0,Research & Development,Laboratory Technician,1,No,2062
+378,108,0.1972466271255387,0,Research & Development,Research Scientist,2,Yes,5410
+982,109,0.1967473532054554,0,Sales,Sales Representative,1,No,2783
+284,110,0.19448923216300457,0,Sales,Sales Executive,2,No,4648
+957,111,0.19366910753332217,0,Sales,Sales Executive,2,Yes,4187
+1293,112,0.1921631974667171,0,Research & Development,Research Scientist,1,No,3433
+953,113,0.1901305838255499,0,Sales,Sales Representative,1,No,2856
+1248,114,0.18792701235779066,0,Research & Development,Research Scientist,1,No,2109
+1256,115,0.18736868958700303,0,Research & Development,Manufacturing Director,2,Yes,4663
+1147,116,0.18575203198113763,0,Sales,Sales Executive,2,Yes,8103
+1133,117,0.18383238102578253,0,Research & Development,Laboratory Technician,1,No,2705
+397,118,0.18069825688906127,0,Research & Development,Laboratory Technician,1,No,2587
+1033,119,0.1793335775448241,0,Human Resources,Human Resources,1,No,2145
+706,120,0.17898256548013913,0,Sales,Sales Executive,2,No,4850
+1386,121,0.17549319109083075,0,Research & Development,Research Scientist,1,No,3517
+622,122,0.1752435459867652,0,Research & Development,Research Scientist,2,No,4108
+13,123,0.1739055384078186,0,Sales,Sales Executive,2,Yes,4591
+90,124,0.17203910914355386,0,Sales,Sales Executive,2,Yes,5087
+903,125,0.17147703833279274,0,Research & Development,Laboratory Technician,1,No,2305
+228,126,0.17010876510599274,0,Research & Development,Research Scientist,2,No,5003
+929,127,0.16937957406267118,0,Research & Development,Research Scientist,1,Yes,3065
+261,128,0.1692746520337079,0,Sales,Sales Executive,2,No,5869
+518,129,0.16792680612494734,0,Research & Development,Research Scientist,1,No,4084
+870,130,0.16717671146776694,0,Human Resources,Human Resources,1,Yes,3195
+83,131,0.16539202524633054,0,Research & Development,Laboratory Technician,1,No,2105
+144,132,0.16357489386900698,0,Research & Development,Healthcare Representative,2,Yes,4035
+390,133,0.16316335283233613,0,Sales,Sales Representative,2,Yes,5405
+478,134,0.15604216133908616,0,Sales,Sales Executive,3,No,10306
+809,135,0.15529753432518853,0,Sales,Sales Executive,2,No,5332
+797,136,0.15448237766721945,0,Sales,Sales Executive,4,No,13341
+591,137,0.1544327417285108,0,Sales,Sales Representative,1,No,3067
+125,138,0.15352038657541342,0,Research & Development,Laboratory Technician,1,No,2867
+1069,139,0.1532675327623654,0,Research & Development,Healthcare Representative,2,Yes,4878
+193,140,0.1522683267897596,0,Research & Development,Manufacturing Director,2,No,5042
+220,141,0.15129541845774125,0,Research & Development,Laboratory Technician,1,No,3907
+1397,142,0.15038779481168463,0,Research & Development,Laboratory Technician,1,No,2810
+324,143,0.14862353376820236,0,Sales,Sales Representative,1,No,2966
+917,144,0.14735953673691077,0,Research & Development,Laboratory Technician,2,Yes,5207
+773,145,0.1465803911235976,0,Research & Development,Manager,5,No,18880
+437,146,0.13901861997861395,0,Research & Development,Healthcare Representative,2,Yes,5689
+1449,147,0.13837990256894717,0,Sales,Sales Executive,2,No,4198
+1051,148,0.138194729145296,0,Sales,Sales Executive,2,No,5561
+1008,149,0.13508499845793662,0,Sales,Sales Executive,2,No,6392
+332,150,0.13500490587351466,0,Research & Development,Manufacturing Director,3,No,9667
+1383,151,0.1342451272025604,0,Sales,Sales Executive,2,No,6500
+238,152,0.13313191437511782,0,Sales,Sales Executive,2,No,4978
+1057,153,0.1320266738852695,0,Research & Development,Healthcare Representative,2,No,5347
+966,154,0.13079592092055214,0,Human Resources,Human Resources,1,No,2180
+410,155,0.1301602520685909,0,Research & Development,Laboratory Technician,2,Yes,4025
+75,156,0.12995288881079728,0,Sales,Manager,4,Yes,17875
+781,157,0.12895017091650657,0,Research & Development,Manufacturing Director,2,No,4320
+1425,158,0.12846437430731897,0,Human Resources,Manager,4,Yes,16437
+408,159,0.12811701470417708,0,Sales,Sales Executive,2,No,5507
+449,160,0.12682547359185264,0,Sales,Sales Executive,3,No,8161
+1448,161,0.1265731103245203,0,Research & Development,Healthcare Representative,3,Yes,10124
+707,162,0.12599857449425486,0,Human Resources,Human Resources,1,No,2187
+67,163,0.12508388654919056,0,Sales,Sales Representative,1,No,3482
+467,164,0.1250461645788482,0,Research & Development,Manufacturing Director,2,Yes,6516
+1392,165,0.12495311549656588,0,Sales,Sales Representative,1,No,2430
+1134,166,0.12348326168268864,0,Research & Development,Healthcare Representative,3,Yes,8321
+1338,167,0.12339449201480326,0,Research & Development,Manufacturing Director,2,No,5321
+866,168,0.12337459618199967,0,Research & Development,Research Scientist,1,No,4968
+313,169,0.12222922246212767,0,Research & Development,Research Scientist,1,No,2929
+1016,170,0.12214486983075479,0,Research & Development,Manufacturing Director,4,Yes,12965
+709,171,0.12182702087172245,0,Research & Development,Laboratory Technician,1,No,2690
+837,172,0.12162758700280647,0,Sales,Sales Executive,3,No,9637
+209,173,0.12056611083042448,0,Research & Development,Healthcare Representative,4,Yes,11245
+303,174,0.11936576185949872,0,Sales,Sales Executive,2,Yes,4907
+994,175,0.11627806966109266,0,Research & Development,Healthcare Representative,2,No,6384
+862,176,0.11491315890816527,0,Research & Development,Research Scientist,1,No,2439
+984,177,0.11439677214897277,0,Research & Development,Manager,5,No,19392
+766,178,0.11404143455822244,0,Research & Development,Healthcare Representative,3,No,8606
+1001,179,0.1137620986038486,0,Human Resources,Manager,5,Yes,19636
+487,180,0.11366602843689795,0,Research & Development,Laboratory Technician,1,No,3306
+376,181,0.11345408565546622,0,Sales,Sales Executive,2,No,5406
+1048,182,0.1120805544135099,0,Research & Development,Healthcare Representative,3,No,8633
+1084,183,0.11125861372029325,0,Research & Development,Laboratory Technician,1,No,2766
+671,184,0.10961247941711674,0,Research & Development,Research Scientist,1,No,2580
+1165,185,0.10846914021996627,0,Sales,Sales Executive,2,Yes,5204
+1284,186,0.10803313457141388,0,Research & Development,Healthcare Representative,2,Yes,4069
+1306,187,0.1071229401679908,0,Sales,Sales Representative,1,No,2269
+392,188,0.10697807721791089,0,Sales,Sales Executive,3,Yes,10447
+371,189,0.10537508070858684,0,Research & Development,Laboratory Technician,1,No,3968
+716,190,0.1051527538669117,0,Research & Development,Research Scientist,2,No,4285
+1089,191,0.10466027558274371,0,Sales,Sales Representative,2,No,4502
+1316,192,0.10436077760756353,0,Sales,Sales Executive,2,No,5468
+305,193,0.1041365642314902,0,Research & Development,Laboratory Technician,1,No,2367
+396,194,0.10392648854409714,0,Sales,Sales Executive,4,No,12031
+1407,195,0.10256840730303421,0,Sales,Sales Executive,2,Yes,5368
+533,196,0.10074973066287189,0,Research & Development,Laboratory Technician,1,No,2468
+1298,197,0.10036744272727201,0,Research & Development,Manufacturing Director,2,Yes,6142
+398,198,0.09903567088350654,0,Research & Development,Manufacturing Director,2,No,9679
+1390,199,0.09876945849032723,0,Research & Development,Manufacturing Director,2,No,6549
+1267,200,0.09695223450664504,0,Research & Development,Manager,3,No,13116
+52,201,0.0962321241287985,0,Sales,Manager,5,Yes,19331
+1366,202,0.09607424878894638,0,Research & Development,Research Scientist,2,Yes,2133
+482,203,0.09504056382569408,0,Research & Development,Healthcare Representative,2,No,5538
+436,204,0.0944105808206189,0,Research & Development,Research Scientist,1,No,2367
+967,205,0.09432651903300851,0,Sales,Sales Executive,2,Yes,6834
+70,206,0.09291310658977417,0,Sales,Sales Representative,2,No,3540
+158,207,0.09216998745579677,0,Research & Development,Research Scientist,1,No,4774
+465,208,0.09177879605699843,0,Research & Development,Manufacturing Director,2,No,4213
+640,209,0.08970028141346076,0,Sales,Sales Executive,2,No,6815
+891,210,0.08884695972266522,0,Research & Development,Research Scientist,1,No,2451
+569,211,0.08857601396936726,0,Research & Development,Laboratory Technician,1,No,2339
+1349,212,0.08817707687046081,0,Research & Development,Research Scientist,2,Yes,6962
+423,213,0.08807513757826259,0,Research & Development,Manufacturing Director,3,Yes,10333
+326,214,0.08790844260177777,0,Research & Development,Healthcare Representative,2,No,6870
+732,215,0.08788776126534859,0,Research & Development,Manufacturing Director,2,No,5238
+1417,216,0.08745796861084068,0,Sales,Sales Executive,3,No,9241
+1109,217,0.08723726135244078,0,Research & Development,Research Scientist,1,No,2144
+26,218,0.08675329468484567,0,Research & Development,Laboratory Technician,1,No,3211
+701,219,0.08615030156704613,0,Research & Development,Laboratory Technician,1,No,3180
+975,220,0.08495402582012787,0,Research & Development,Laboratory Technician,2,No,6323
+592,221,0.08390146609195101,0,Research & Development,Healthcare Representative,3,No,7510
+66,222,0.08376825755744602,0,Research & Development,Research Director,4,No,16704
+1023,223,0.08319625947875502,0,Sales,Sales Executive,2,No,5487
+413,224,0.08294460337657883,0,Research & Development,Healthcare Representative,2,No,4617
+574,225,0.08261959165906584,0,Research & Development,Laboratory Technician,1,No,3812
+860,226,0.08177770719864913,0,Research & Development,Laboratory Technician,1,No,3377
+387,227,0.08161397929390703,0,Research & Development,Laboratory Technician,2,No,3407
+1167,228,0.08086832652714644,0,Sales,Sales Executive,2,Yes,7847
+164,229,0.0802759116652769,0,Research & Development,Research Scientist,1,Yes,2932
+1290,230,0.07992267281597304,0,Research & Development,Research Scientist,2,No,4332
+361,231,0.07938981545975202,0,Research & Development,Research Scientist,1,No,3375
+538,232,0.07918291885821047,0,Research & Development,Research Scientist,2,No,5208
+831,233,0.07916182473398783,0,Research & Development,Manufacturing Director,3,No,10435
+454,234,0.07905545491527617,0,Research & Development,Healthcare Representative,3,No,7005
+992,235,0.07902786331679029,0,Sales,Sales Executive,2,Yes,5673
+690,236,0.07900687335341447,0,Sales,Sales Executive,2,No,9525
+848,237,0.07843107301546767,0,Research & Development,Manager,4,No,17174
+746,238,0.07752598943794911,0,Sales,Sales Executive,3,Yes,9713
+276,239,0.07725203933693799,0,Research & Development,Research Scientist,1,No,2809
+222,240,0.0768072048770932,0,Research & Development,Research Director,4,No,16413
+333,241,0.07646446075076418,0,Research & Development,Laboratory Technician,2,No,4404
+1268,242,0.07643773283484695,0,Research & Development,Healthcare Representative,2,No,5063
+1340,243,0.07620348553181766,0,Research & Development,Research Director,4,No,16328
+1352,244,0.07607337620132304,0,Research & Development,Research Scientist,1,No,3117
+615,245,0.07571169435618103,0,Research & Development,Manufacturing Director,2,No,5906
+384,246,0.07509241902467205,0,Sales,Sales Executive,2,No,5380
+833,247,0.07471457784627569,0,Research & Development,Healthcare Representative,3,No,7441
+342,248,0.07441383072188022,0,Human Resources,Human Resources,2,No,6430
+923,249,0.07422985731216206,0,Research & Development,Manager,5,No,19613
+483,250,0.0737862785288885,0,Research & Development,Healthcare Representative,2,No,9715
+1012,251,0.07272635524867532,0,Human Resources,Human Resources,2,No,6077
+751,252,0.07265672668541841,0,Research & Development,Healthcare Representative,2,No,8853
+625,253,0.07123453915211726,0,Research & Development,Laboratory Technician,1,No,2647
+346,254,0.07060884687165167,0,Human Resources,Human Resources,2,No,3886
+92,255,0.07042898268688938,0,Research & Development,Research Scientist,2,Yes,4284
+944,256,0.07032923757021906,0,Sales,Sales Executive,2,No,4639
+38,257,0.07003478906832303,0,Research & Development,Laboratory Technician,1,No,4876
+96,258,0.06992171995579419,0,Research & Development,Healthcare Representative,2,No,5373
+535,259,0.06964536891539777,0,Research & Development,Manufacturing Director,3,Yes,7756
+1081,260,0.06815573116127185,0,Sales,Sales Executive,3,No,9888
+192,261,0.06791799426542042,0,Sales,Sales Executive,3,No,7644
+1150,262,0.06761265193856761,0,Research & Development,Research Scientist,2,No,2897
+1346,263,0.06756486633688669,0,Research & Development,Laboratory Technician,1,No,4841
+871,264,0.06630413622738603,0,Research & Development,Research Scientist,1,No,3936
+254,265,0.06533371440915688,0,Human Resources,Human Resources,3,No,9756
+428,266,0.06509900721661563,0,Research & Development,Laboratory Technician,1,No,2974
+688,267,0.06505615462252623,0,Research & Development,Manufacturing Director,4,No,13570
+886,268,0.06462529867301783,0,Research & Development,Manufacturing Director,2,No,9936
+47,269,0.06225622652462544,0,Sales,Sales Executive,2,No,5343
+130,270,0.06220155984183771,0,Research & Development,Healthcare Representative,3,Yes,7879
+318,271,0.06213396652788518,0,Research & Development,Manufacturing Director,2,No,5151
+116,272,0.06201932018464622,0,Research & Development,Laboratory Technician,2,Yes,6472
+1294,273,0.06161689021169779,0,Sales,Sales Executive,2,No,5675
+1388,274,0.060534445661203806,0,Sales,Sales Executive,2,No,5147
+72,275,0.06027658973925959,0,Research & Development,Laboratory Technician,2,No,4789
+958,276,0.059970248023783715,0,Research & Development,Research Scientist,1,No,2862
+380,277,0.059555996538574116,0,Research & Development,Healthcare Representative,3,No,10883
+1270,278,0.05838372429279246,0,Sales,Sales Executive,2,No,5390
+875,279,0.057992347491994924,0,Research & Development,Research Scientist,1,No,2977
+542,280,0.05782869547706674,0,Research & Development,Laboratory Technician,1,No,2289
+954,281,0.05764830470735035,0,Research & Development,Research Director,3,No,13206
+1413,282,0.05737444946645624,0,Research & Development,Manufacturing Director,2,No,5295
+1254,283,0.05652090143522424,0,Human Resources,Human Resources,1,No,2592
+48,284,0.056148416203084826,0,Human Resources,Human Resources,1,No,2064
+1365,285,0.055762553828579864,0,Research & Development,Laboratory Technician,2,No,5346
+1025,286,0.05519230077222446,0,Sales,Sales Executive,3,No,7140
+1034,287,0.05481625931380365,0,Sales,Sales Executive,3,No,8628
+608,288,0.05469130902519849,0,Sales,Manager,5,No,19833
+56,289,0.05438991427448131,0,Research & Development,Research Scientist,1,No,2141
+768,290,0.05416091080024464,0,Research & Development,Healthcare Representative,2,No,4448
+79,291,0.05366302160024246,0,Sales,Sales Executive,2,Yes,6583
+212,292,0.05346133307382671,0,Sales,Sales Executive,2,No,4684
+132,293,0.05329296242276749,0,Research & Development,Healthcare Representative,2,No,5399
+960,294,0.053260497877832616,0,Sales,Sales Executive,2,No,4127
+354,295,0.05282940931878546,0,Research & Development,Laboratory Technician,1,No,2544
+1060,296,0.052765367881727795,0,Sales,Sales Executive,2,No,9714
+770,297,0.05274148574339786,0,Sales,Sales Executive,2,No,6439
+1190,298,0.05264220019561182,0,Research & Development,Laboratory Technician,2,No,4197
+980,299,0.05231827418194186,0,Human Resources,Human Resources,2,No,4071
+711,300,0.052288211944704434,0,Sales,Manager,4,No,17567
+727,301,0.05215147961391407,0,Research & Development,Manufacturing Director,3,No,8376
+564,302,0.05069366628482295,0,Sales,Sales Executive,2,No,9924
+291,303,0.05043616522301179,0,Research & Development,Healthcare Representative,2,No,5562
+1093,304,0.049875615687685455,0,Sales,Sales Executive,3,No,9250
+693,305,0.048772067673726216,0,Sales,Sales Executive,2,No,8346
+1000,306,0.048524684771923135,0,Research & Development,Laboratory Technician,1,No,4066
+348,307,0.048437988013617296,0,Research & Development,Manufacturing Director,2,No,5768
+188,308,0.04759775118974094,0,Sales,Sales Executive,2,No,6712
+314,309,0.04742761604631703,0,Sales,Sales Executive,2,No,4189
+1409,310,0.04741297904209073,0,Sales,Sales Executive,2,No,4507
+1230,311,0.047137510888335274,0,Research & Development,Research Director,5,No,19038
+950,312,0.04686912101602732,0,Research & Development,Research Scientist,1,No,3143
+1399,313,0.04653093309186256,0,Research & Development,Laboratory Technician,1,No,2028
+340,314,0.04630459126712997,0,Research & Development,Manufacturing Director,2,No,5377
+183,315,0.04603695713951502,0,Research & Development,Research Scientist,1,No,3445
+663,316,0.04596061130677853,0,Research & Development,Laboratory Technician,1,No,3477
+1437,317,0.04577583167286495,0,Research & Development,Laboratory Technician,1,No,3748
+1169,318,0.04527753483970355,0,Research & Development,Research Scientist,1,No,2718
+319,319,0.04510321534380183,0,Research & Development,Healthcare Representative,3,No,8008
+198,320,0.045053352064823166,0,Sales,Sales Executive,2,No,4393
+686,321,0.04482440208048781,0,Research & Development,Research Director,3,Yes,13744
+506,322,0.04477043399117571,0,Research & Development,Research Director,5,Yes,19328
+1202,323,0.044725850165894455,0,Sales,Sales Executive,2,No,6728
+695,324,0.044567590935468464,0,Research & Development,Research Director,5,Yes,19049
+869,325,0.04439526001840931,0,Sales,Manager,4,No,16291
+383,326,0.04420887736361309,0,Research & Development,Laboratory Technician,1,No,2570
+1042,327,0.043105383800562155,0,Research & Development,Manager,4,No,16823
+946,328,0.04298473563009126,0,Sales,Sales Executive,2,No,5476
+1415,329,0.04255993374671548,0,Research & Development,Research Director,5,No,19665
+644,330,0.04216456549233334,0,Research & Development,Laboratory Technician,2,No,2571
+1408,331,0.041836795821957554,0,Sales,Sales Executive,3,No,8237
+257,332,0.04147043009211456,0,Sales,Sales Executive,3,Yes,10368
+889,333,0.04124136774599092,0,Research & Development,Research Scientist,2,No,5098
+571,334,0.040459176166758884,0,Research & Development,Healthcare Representative,2,No,8926
+173,335,0.04019054723515603,0,Research & Development,Research Scientist,1,No,2936
+509,336,0.04013198001488214,0,Human Resources,Human Resources,1,No,3539
+1163,337,0.03925127340580076,0,Research & Development,Manager,3,No,11244
+1044,338,0.039199590010956756,0,Research & Development,Healthcare Representative,3,No,9991
+53,339,0.03892811679646897,0,Research & Development,Manufacturing Director,2,No,4724
+259,340,0.038814863508342394,0,Research & Development,Research Scientist,2,No,3902
+453,341,0.03873767258327241,0,Research & Development,Manufacturing Director,2,No,4374
+1122,342,0.03871039421113405,0,Research & Development,Research Director,3,No,13464
+278,343,0.03830992408370004,0,Research & Development,Research Scientist,1,No,2662
+87,344,0.03823088913939583,0,Sales,Sales Executive,2,No,6652
+105,345,0.037275126369443704,0,Sales,Sales Executive,4,No,13225
+785,346,0.03701998665876867,0,Research & Development,Laboratory Technician,1,No,3702
+904,347,0.03701605209826286,0,Research & Development,Manager,4,No,17426
+913,348,0.036519516771393014,0,Research & Development,Manufacturing Director,2,No,5131
+560,349,0.036244300899981714,0,Research & Development,Research Scientist,1,No,2073
+575,350,0.036062757506677395,0,Sales,Sales Executive,3,No,10422
+1237,351,0.034459567669563394,0,Sales,Manager,5,No,19586
+312,352,0.03370003827150974,0,Research & Development,Research Scientist,1,No,3591
+1226,353,0.033281409395738475,0,Sales,Sales Executive,2,No,4105
+493,354,0.03263916570167809,0,Research & Development,Healthcare Representative,4,Yes,13966
+91,355,0.03260645256752072,0,Research & Development,Laboratory Technician,2,No,3986
+151,356,0.03254610804357593,0,Sales,Sales Executive,2,No,8620
+1024,357,0.03250858902720104,0,Research & Development,Research Director,3,No,13348
+1043,358,0.03202955835483454,0,Research & Development,Research Scientist,1,No,2226
+118,359,0.031941139064596856,0,Research & Development,Healthcare Representative,2,No,5294
+1119,360,0.03150017939488822,0,Research & Development,Research Scientist,1,No,2044
+761,361,0.031134750652791077,0,Research & Development,Healthcare Representative,2,No,5033
+503,362,0.030762118836859653,0,Sales,Sales Executive,2,Yes,4001
+1027,363,0.030463642311494732,0,Research & Development,Research Director,5,No,19161
+1367,364,0.030178704813573338,0,Research & Development,Research Scientist,2,No,5484
+120,365,0.030102081528634667,0,Research & Development,Laboratory Technician,2,No,3069
+630,366,0.030010931822272963,0,Sales,Sales Executive,2,No,5154
+1105,367,0.02960061038111748,0,Research & Development,Research Scientist,1,No,2132
+1467,368,0.029009287226650665,0,Research & Development,Research Director,3,No,13269
+1225,369,0.02886247781731025,0,Research & Development,Manager,5,No,19431
+1283,370,0.028722512159676188,0,Research & Development,Manager,4,No,15202
+243,371,0.028615403096915088,0,Research & Development,Research Scientist,2,No,5467
+894,372,0.027914874902577363,0,Research & Development,Healthcare Representative,2,No,6842
+910,373,0.0273115930703726,0,Sales,Sales Executive,2,No,5677
+522,374,0.02724903974369109,0,Research & Development,Manufacturing Director,3,No,10169
+679,375,0.026783294709360566,0,Sales,Manager,4,No,16606
+1341,376,0.026179494424237955,0,Research & Development,Research Director,4,No,17603
+970,377,0.026032350477900527,0,Research & Development,Research Scientist,1,No,4401
+925,378,0.025747777815331153,0,Research & Development,Manufacturing Director,3,No,8578
+5,379,0.025718015858238498,0,Research & Development,Research Scientist,1,No,2001
+810,380,0.02545003233556231,0,Research & Development,Manager,4,No,15379
+769,381,0.025384180129676203,0,Research & Development,Manufacturing Director,2,No,5770
+30,382,0.02528539584637408,0,Human Resources,Manager,5,No,19658
+1188,383,0.025142845363852084,0,Research & Development,Research Director,3,No,11031
+859,384,0.024912613089538606,0,Sales,Sales Executive,2,No,5505
+1381,385,0.024772281026034966,0,Research & Development,Manufacturing Director,2,No,6883
+108,386,0.024734551275875812,0,Research & Development,Research Scientist,2,No,4735
+555,387,0.024684346089561646,0,Research & Development,Research Scientist,2,No,5470
+636,388,0.024467437142188887,0,Human Resources,Human Resources,1,No,2706
+1430,389,0.024317754824548586,0,Research & Development,Research Scientist,1,No,4771
+1026,390,0.024203285007779345,0,Research & Development,Manager,4,No,16032
+200,391,0.023145305180105498,0,Research & Development,Healthcare Representative,3,No,10748
+1393,392,0.022761183171348107,0,Sales,Manager,4,No,15972
+19,393,0.022731056117798305,0,Research & Development,Manufacturing Director,2,No,5206
+986,394,0.022208357117739438,0,Research & Development,Healthcare Representative,2,No,6667
+372,395,0.021983050886786266,0,Research & Development,Research Director,3,No,11957
+402,396,0.021875796059648133,0,Research & Development,Research Scientist,2,No,3055
+89,397,0.02160265488262628,0,Sales,Sales Executive,3,No,7314
+80,398,0.021560747698546014,0,Research & Development,Research Scientist,2,No,5433
+1129,399,0.021554471778060608,0,Research & Development,Research Scientist,2,No,4087
+131,400,0.021335435385221944,0,Sales,Sales Executive,2,No,8938
+978,401,0.021009639824179922,0,Sales,Sales Executive,2,No,6799
+642,402,0.02008949805862192,0,Research & Development,Research Scientist,1,No,2782
+1296,403,0.019987880575894602,0,Research & Development,Manufacturing Director,2,No,4855
+157,404,0.019372561928095475,0,Research & Development,Healthcare Representative,2,No,6306
+1219,405,0.01900139499661405,0,Research & Development,Research Scientist,2,No,6854
+148,406,0.018086456722973654,0,Research & Development,Research Scientist,1,No,3312
+145,407,0.017690401308373065,0,Research & Development,Healthcare Representative,2,No,5968
+676,408,0.017393654236230165,0,Sales,Sales Executive,2,No,4440
+232,409,0.017227892141624963,0,Research & Development,Research Scientist,2,No,5878
+1246,410,0.013453802732813408,0,Research & Development,Manufacturing Director,2,No,5762
+231,411,0.013430070255873321,0,Research & Development,Healthcare Representative,2,No,6513
+1428,412,0.012426507914190612,0,Research & Development,Healthcare Representative,2,No,4148

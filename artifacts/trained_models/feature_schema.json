@@ -1,0 +1,150 @@
+[
+  {
+    "feature": "BusinessTravel",
+    "kind": "nominal",
+    "categories": "Non-Travel|Travel_Frequently|Travel_Rarely"
+  },
+  {
+    "feature": "DailyRate",
+    "kind": "numeric",
+    "min": 102.0,
+    "median": 817.5,
+    "max": 1499.0
+  },
+  {
+    "feature": "DistanceFromHome",
+    "kind": "numeric",
+    "min": 1.0,
+    "median": 7.0,
+    "max": 29.0
+  },
+  {
+    "feature": "EnvironmentSatisfaction",
+    "kind": "ordinal",
+    "min": 1.0,
+    "median": 3.0,
+    "max": 4.0
+  },
+  {
+    "feature": "HourlyRate",
+    "kind": "numeric",
+    "min": 30.0,
+    "median": 65.0,
+    "max": 100.0
+  },
+  {
+    "feature": "JobInvolvement",
+    "kind": "ordinal",
+    "min": 1.0,
+    "median": 3.0,
+    "max": 4.0
+  },
+  {
+    "feature": "JobLevel",
+    "kind": "ordinal",
+    "min": 1.0,
+    "median": 2.0,
+    "max": 5.0
+  },
+  {
+    "feature": "JobRole",
+    "kind": "nominal",
+    "categories": "Healthcare Representative|Human Resources|Laboratory Technician|Manager|Manufacturing Director|Research Director|Research Scientist|Sales Executive|Sales Representative"
+  },
+  {
+    "feature": "JobSatisfaction",
+    "kind": "ordinal",
+    "min": 1.0,
+    "median": 3.0,
+    "max": 4.0
+  },
+  {
+    "feature": "MonthlyIncome",
+    "kind": "numeric",
+    "min": 1009.0,
+    "median": 4903.5,
+    "max": 19999.0
+  },
+  {
+    "feature": "MonthlyRate",
+    "kind": "numeric",
+    "min": 2094.0,
+    "median": 14201.0,
+    "max": 26999.0
+  },
+  {
+    "feature": "NumCompaniesWorked",
+    "kind": "numeric",
+    "min": 0.0,
+    "median": 2.0,
+    "max": 9.0
+  },
+  {
+    "feature": "OverTime",
+    "kind": "nominal",
+    "categories": "No|Yes"
+  },
+  {
+    "feature": "PercentSalaryHike",
+    "kind": "numeric",
+    "min": 11.0,
+    "median": 14.0,
+    "max": 25.0
+  },
+  {
+    "feature": "StockOptionLevel",
+    "kind": "ordinal",
+    "min": 0.0,
+    "median": 1.0,
+    "max": 3.0
+  },
+  {
+    "feature": "TotalWorkingYears",
+    "kind": "numeric",
+    "min": 0.0,
+    "median": 10.0,
+    "max": 40.0
+  },
+  {
+    "feature": "TrainingTimesLastYear",
+    "kind": "numeric",
+    "min": 0.0,
+    "median": 3.0,
+    "max": 6.0
+  },
+  {
+    "feature": "WorkLifeBalance",
+    "kind": "ordinal",
+    "min": 1.0,
+    "median": 3.0,
+    "max": 4.0
+  },
+  {
+    "feature": "YearsAtCompany",
+    "kind": "numeric",
+    "min": 0.0,
+    "median": 5.0,
+    "max": 40.0
+  },
+  {
+    "feature": "YearsInCurrentRole",
+    "kind": "numeric",
+    "min": 0.0,
+    "median": 3.0,
+    "max": 18.0
+  },
+  {
+    "feature": "YearsSinceLastPromotion",
+    "kind": "numeric",
+    "min": 0.0,
+    "median": 1.0,
+    "max": 15.0
+  },
+  {
+    "feature": "YearsWithCurrManager",
+    "kind": "numeric",
+    "min": 0.0,
+    "median": 3.0,
+    "max": 17.0
+  }
+]

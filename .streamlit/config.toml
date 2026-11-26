@@ -1,0 +1,41 @@
+# MurphysBio theme (docs/dashboard_scope.md Section 7). Verified with Streamlit 1.66.1.
+# primaryColor is brand-teal-dark: Streamlit draws white text on it (5.47:1). The light
+# brand-teal #14B8A6 is for the logo and charts only (white text on it fails, 2.49:1).
+# Keep in sync with dashboard/views/components/palette.py.
+[theme]
+base = "light"
+primaryColor = "#0F766E"
+backgroundColor = "#FFFFFF"
+secondaryBackgroundColor = "#EEF8F7"
+textColor = "#1B1B1F"
+linkColor = "#0F766E"
+borderColor = "#E7E7EA"
+showSidebarBorder = true
+font = "Inter, sans-serif"
+
+# Inter (SIL OFL 1.1) is self-hosted in dashboard/static/fonts/ and served at app/static/.
+[[theme.fontFaces]]
+family = "Inter"
+url = "app/static/fonts/Inter-Regular.woff2"
+weight = 400
+
+[[theme.fontFaces]]
+family = "Inter"
+url = "app/static/fonts/Inter-SemiBold.woff2"
+weight = 600
+
+[[theme.fontFaces]]
+family = "Inter"
+url = "app/static/fonts/Inter-Bold.woff2"
+weight = 700
+
+[server]
+enableStaticServing = true
+maxUploadSize = 5            # MB; batch-scoring uploads (scope Section 4.3)
+
+[browser]
+gatherUsageStats = false
+
+[client]
+toolbarMode = "minimal"
+showErrorDetails = "none"    # users see plain messages; tracebacks go to the log

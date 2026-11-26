@@ -1,0 +1,6 @@
+# Local pip install: the app runtime pins plus the shared package employee_attrition.
+# The pins live in dashboard/requirements.txt (also used by Streamlit Community Cloud).
+# Notebook extras (Optuna, Matplotlib, seaborn) are in requirements-dev.txt.
+# For pip-based environments only; lab_venv is managed with environment.yml.
+-r dashboard/requirements.txt
+-e .                  # shared package employee_attrition

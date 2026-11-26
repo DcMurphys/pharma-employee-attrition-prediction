@@ -1,0 +1,12 @@
+# Development tools and notebook extras. For pip-based environments only, not for lab_venv.
+-r requirements.txt
+
+# Tests and linting
+pytest==9.2.0
+ruff==0.17.3
+
+# Notebook extras (Colab run recorded in NB §3: Optuna 5.1.0, Matplotlib 3.10.0, seaborn 0.13.2)
+optuna==5.1.0
+matplotlib==3.10.0
+seaborn==0.13.2
+ipython==9.17.1       # IPython.display in the notebook (version in lab_venv)

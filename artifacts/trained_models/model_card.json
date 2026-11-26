@@ -1,0 +1,355 @@
+{
+  "company": "MurphysBio",
+  "disclaimer": "MurphysBio is a fictional company. Data: IBM HR Analytics Employee Attrition sample (fictional).",
+  "review_capacity_share": 0.2,
+  "test_employees": 159,
+  "test_leavers": 27,
+  "external_employees": 412,
+  "external_leavers": 58,
+  "fairness_min_ratio": 0.8,
+  "permutation_repeats": 20,
+  "criteria": [
+    {
+      "id": "D1",
+      "criterion": "Test ROC AUC >= 0.75",
+      "value": 0.8518518519,
+      "met": true
+    },
+    {
+      "id": "D2",
+      "criterion": "Test F2 > OverTime rule (0.523)",
+      "value": 0.5925925926,
+      "met": true
+    },
+    {
+      "id": "D3",
+      "criterion": "Average precision >= 2 x prevalence (0.340)",
+      "value": 0.6627975474,
+      "met": true
+    },
+    {
+      "id": "D4",
+      "criterion": "|CV ROC AUC (0.804) - test ROC AUC| <= 0.05",
+      "value": 0.0480257708,
+      "met": true
+    }
+  ],
+  "test_benchmarks": [
+    {
+      "model": "Majority class (nobody leaves)",
+      "accuracy": 0.8301886792,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "f2": 0.0,
+      "flagged_share": 0.0,
+      "roc_auc": null,
+      "average_precision": null
+    },
+    {
+      "model": "Rule: OverTime == 'Yes'",
+      "accuracy": 0.748427673,
+      "precision": 0.3555555556,
+      "recall": 0.5925925926,
+      "f1": 0.4444444444,
+      "f2": 0.522875817,
+      "flagged_share": 0.2830188679,
+      "roc_auc": null,
+      "average_precision": null
+    },
+    {
+      "model": "Gradient Boosting (iteration 1)",
+      "accuracy": 0.6666666667,
+      "precision": 0.3243243243,
+      "recall": 0.8888888889,
+      "f1": 0.4752475248,
+      "f2": 0.6593406593,
+      "flagged_share": 0.465408805,
+      "roc_auc": 0.8686868687,
+      "average_precision": 0.6526435235
+    },
+    {
+      "model": "Gradient Boosting (iteration 2)",
+      "accuracy": 0.8616352201,
+      "precision": 0.5925925926,
+      "recall": 0.5925925926,
+      "f1": 0.5925925926,
+      "f2": 0.5925925926,
+      "flagged_share": 0.1698113208,
+      "roc_auc": 0.8518518519,
+      "average_precision": 0.6627975474
+    }
+  ],
+  "test_intervals": [
+    {
+      "model": "Iteration 1",
+      "metric": "roc_auc",
+      "ci_low": 0.7790113215,
+      "ci_high": 0.937561816
+    },
+    {
+      "model": "Iteration 1",
+      "metric": "average_precision",
+      "ci_low": 0.4697129954,
+      "ci_high": 0.8124000377
+    },
+    {
+      "model": "Iteration 1",
+      "metric": "recall",
+      "ci_low": 0.7497685185,
+      "ci_high": 1.0
+    },
+    {
+      "model": "Iteration 1",
+      "metric": "precision",
+      "ci_low": 0.2194731082,
+      "ci_high": 0.4303841421
+    },
+    {
+      "model": "Iteration 2",
+      "metric": "roc_auc",
+      "ci_low": 0.747436248,
+      "ci_high": 0.9329102292
+    },
+    {
+      "model": "Iteration 2",
+      "metric": "average_precision",
+      "ci_low": 0.467784596,
+      "ci_high": 0.82283285
+    },
+    {
+      "model": "Iteration 2",
+      "metric": "recall",
+      "ci_low": 0.392818323,
+      "ci_high": 0.7779761905
+    },
+    {
+      "model": "Iteration 2",
+      "metric": "precision",
+      "ci_low": 0.4,
+      "ci_high": 0.7826086957
+    }
+  ],
+  "external_validation": [
+    {
+      "model": "Majority class (nobody leaves)",
+      "accuracy": 0.859223301,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "f2": 0.0,
+      "flagged_share": 0.0,
+      "roc_auc": null,
+      "average_precision": null
+    },
+    {
+      "model": "Rule: OverTime == 'Yes'",
+      "accuracy": 0.7354368932,
+      "precision": 0.2660550459,
+      "recall": 0.5,
+      "f1": 0.3473053892,
+      "f2": 0.4252199413,
+      "flagged_share": 0.2645631068,
+      "roc_auc": null,
+      "average_precision": null
+    },
+    {
+      "model": "Gradient Boosting (deployed)",
+      "accuracy": 0.8470873786,
+      "precision": 0.4698795181,
+      "recall": 0.6724137931,
+      "f1": 0.5531914894,
+      "f2": 0.619047619,
+      "flagged_share": 0.2014563107,
+      "roc_auc": 0.8276836158,
+      "average_precision": 0.6161893854
+    }
+  ],
+  "fairness": [
+    {
+      "attribute": "Gender",
+      "group": "Female",
+      "employees": 150,
+      "flag_rate": 0.2,
+      "ratio_to_highest": 0.9886792453,
+      "below_four_fifths": false
+    },
+    {
+      "attribute": "Gender",
+      "group": "Male",
+      "employees": 262,
+      "flag_rate": 0.2022900763,
+      "ratio_to_highest": 1.0,
+      "below_four_fifths": false
+    },
+    {
+      "attribute": "MaritalStatus",
+      "group": "Divorced",
+      "employees": 85,
+      "flag_rate": 0.1294117647,
+      "ratio_to_highest": 0.3181372549,
+      "below_four_fifths": true
+    },
+    {
+      "attribute": "MaritalStatus",
+      "group": "Married",
+      "employees": 209,
+      "flag_rate": 0.1148325359,
+      "ratio_to_highest": 0.2822966507,
+      "below_four_fifths": true
+    },
+    {
+      "attribute": "MaritalStatus",
+      "group": "Single",
+      "employees": 118,
+      "flag_rate": 0.406779661,
+      "ratio_to_highest": 1.0,
+      "below_four_fifths": false
+    },
+    {
+      "attribute": "AgeBand",
+      "group": "18-29",
+      "employees": 90,
+      "flag_rate": 0.4,
+      "ratio_to_highest": 1.0,
+      "below_four_fifths": false
+    },
+    {
+      "attribute": "AgeBand",
+      "group": "30-39",
+      "employees": 185,
+      "flag_rate": 0.1621621622,
+      "ratio_to_highest": 0.4054054054,
+      "below_four_fifths": true
+    },
+    {
+      "attribute": "AgeBand",
+      "group": "40-49",
+      "employees": 106,
+      "flag_rate": 0.1226415094,
+      "ratio_to_highest": 0.3066037736,
+      "below_four_fifths": true
+    },
+    {
+      "attribute": "AgeBand",
+      "group": "50-60",
+      "employees": 31,
+      "flag_rate": 0.1290322581,
+      "ratio_to_highest": 0.3225806452,
+      "below_four_fifths": true
+    }
+  ],
+  "permutation_importance": [
+    {
+      "feature": "OverTime",
+      "mean_drop_ap": 0.2142601918,
+      "std": 0.065667507
+    },
+    {
+      "feature": "StockOptionLevel",
+      "mean_drop_ap": 0.1215918786,
+      "std": 0.0388890957
+    },
+    {
+      "feature": "EnvironmentSatisfaction",
+      "mean_drop_ap": 0.0686615062,
+      "std": 0.0214346097
+    },
+    {
+      "feature": "MonthlyIncome",
+      "mean_drop_ap": 0.0586671513,
+      "std": 0.0281015938
+    },
+    {
+      "feature": "JobRole",
+      "mean_drop_ap": 0.0475604474,
+      "std": 0.0139191617
+    },
+    {
+      "feature": "BusinessTravel",
+      "mean_drop_ap": 0.0461784067,
+      "std": 0.0170475321
+    },
+    {
+      "feature": "TotalWorkingYears",
+      "mean_drop_ap": 0.041983895,
+      "std": 0.0268952894
+    },
+    {
+      "feature": "JobSatisfaction",
+      "mean_drop_ap": 0.0400621138,
+      "std": 0.0168710178
+    },
+    {
+      "feature": "JobLevel",
+      "mean_drop_ap": 0.0307952222,
+      "std": 0.0190826437
+    },
+    {
+      "feature": "DistanceFromHome",
+      "mean_drop_ap": 0.0301464099,
+      "std": 0.0156593382
+    },
+    {
+      "feature": "JobInvolvement",
+      "mean_drop_ap": 0.0236149259,
+      "std": 0.0143172602
+    },
+    {
+      "feature": "YearsSinceLastPromotion",
+      "mean_drop_ap": 0.0193179614,
+      "std": 0.015664166
+    },
+    {
+      "feature": "NumCompaniesWorked",
+      "mean_drop_ap": 0.0161668874,
+      "std": 0.0132407017
+    },
+    {
+      "feature": "YearsWithCurrManager",
+      "mean_drop_ap": 0.0158548191,
+      "std": 0.0116010997
+    },
+    {
+      "feature": "YearsInCurrentRole",
+      "mean_drop_ap": 0.0130508817,
+      "std": 0.0087478697
+    },
+    {
+      "feature": "YearsAtCompany",
+      "mean_drop_ap": 0.0113660468,
+      "std": 0.0166018897
+    },
+    {
+      "feature": "TrainingTimesLastYear",
+      "mean_drop_ap": 0.0006472801,
+      "std": 0.0084381075
+    },
+    {
+      "feature": "DailyRate",
+      "mean_drop_ap": -0.000599479,
+      "std": 0.0181788368
+    },
+    {
+      "feature": "MonthlyRate",
+      "mean_drop_ap": -0.002948071,
+      "std": 0.0147231842
+    },
+    {
+      "feature": "PercentSalaryHike",
+      "mean_drop_ap": -0.0048393245,
+      "std": 0.0042558644
+    },
+    {
+      "feature": "HourlyRate",
+      "mean_drop_ap": -0.0095891116,
+      "std": 0.0079487676
+    },
+    {
+      "feature": "WorkLifeBalance",
+      "mean_drop_ap": -0.0117122422,
+      "std": 0.0058001185
+    }
+  ],
+  "created_at_utc": "2026-11-25T08:41:31+00:00"
+}
