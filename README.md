@@ -12,8 +12,13 @@ scores and dashboard data power a Streamlit app for HR in [`dashboard/`](dashboa
 
 > *MurphysBio is a fictional company. Data: IBM HR Analytics Employee Attrition sample (fictional).*
 
-**Try the app:** run it on your own computer in a few commands (see [How to Run](#how-to-run)). Nothing needs to be
-trained: the trained model, the risk scores and the dashboard data are already in the repository.
+[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://murphysbio-employee-attrition-prediction.streamlit.app/)
+
+**Try the app:** open the live demo at
+[murphysbio-employee-attrition-prediction.streamlit.app](https://murphysbio-employee-attrition-prediction.streamlit.app/),
+or run it on your own computer in a few commands (see [How to Run](#how-to-run)). Nothing needs to be trained: the
+trained model, the risk scores and the dashboard data are already in the repository. The live demo can take a few
+seconds to wake up after a quiet period.
 
 ## At a glance
 
@@ -575,9 +580,14 @@ Colab). A full run repeats the 100 Optuna trials and re-exports the model files,
 
 ### 6. Deploy (optional)
 
-* **Streamlit Community Cloud.** Create an app from the repository with the main file `dashboard/app.py` and choose
+* **Streamlit Community Cloud.** The live demo runs at
+  [murphysbio-employee-attrition-prediction.streamlit.app](https://murphysbio-employee-attrition-prediction.streamlit.app/).
+  To deploy a copy, create an app from the repository with the main file `dashboard/app.py` and choose
   **Python 3.13** under *Advanced settings*. Dependencies come from `dashboard/requirements.txt`, and the theme and
   self-hosted fonts from `.streamlit/config.toml`. The app needs no secrets.
+* **Keeping the demo awake.** Community Cloud puts quiet apps to sleep, and a plain HTTP ping does not wake them. The
+  workflow `.github/workflows/keep-alive.yml` opens the app in a headless browser every 6 hours and presses the wake-up
+  button when needed. It can also be started by hand under *Actions → Keep Streamlit app awake → Run workflow*.
 * **Uploaded files** are processed in memory and not stored; use sample or synthetic data only.
 
 ### Project layout
@@ -592,6 +602,7 @@ Colab). A full run repeats the 100 Optuna trials and re-exports the model files,
 | `tests/` | Automated tests |
 | `reports/figures/` | Charts from the notebook used in this README |
 | `.streamlit/` | App theme and fonts |
+| `.github/workflows/` | The scheduled workflow that keeps the live demo awake |
 
 ---
 
